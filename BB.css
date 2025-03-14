@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243, 242, 242);
+}
+
+h1{
+    text-align: center;
+    font-family:  "Comic Sans MS";
+    color: #000000;
+}
+
+section{
+  display: flex;
+  width: 100%;
+  height: 650px;
+}
+
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.Titulocatalogo{
+  width: 100%;
+  background:#8be2ff;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: larger;
+}
+
+.Slogan{
+  width: 100%;
+  background:#8be2ff;
+  text-align: center;
+  line-height: 150px;
+  color: white;
+}
+
+.box {
+    border: 5px solid #8be2ff;
+    background-color: rgba(255, 255, 255, 0.911);
+    margin: 30px;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+    margin-left: 100px;
+  }
+
+  .BC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+.box2 {
+    border: 5px solid #8be2ff;
+    background-color: rgba(255, 255, 255, 0.911);
+    margin: 70px;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    align-content: center;
+    margin-left: 100px;
+  }
+  .BC1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.box3 {
+    border: 5px solid #8be2ff;
+    background-color: rgba(255, 255, 255, 0.911);
+    margin: 30px;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+    margin-left: 100px;
+  }
+  .BC2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.ImagenCat1 {
+  width: 50%;
+  }
+  
+ 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .producto {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: center;
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .producto h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+      
+   
