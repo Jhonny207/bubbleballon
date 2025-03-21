@@ -73,6 +73,17 @@ section img:hover{
   line-height: 100px;
   color: white;
   font-size: larger;
+
+}
+
+.Titulocontacto{
+  width: 100%;
+  background:#8be2ff;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: larger;
+
 }
 
 .Slogan{
@@ -81,6 +92,7 @@ section img:hover{
   text-align: center;
   line-height: 150px;
   color: white;
+
 }
 
 .box {
@@ -164,5 +176,4 @@ section img:hover{
   margin: 10px 0;
         }
       
-   
    
