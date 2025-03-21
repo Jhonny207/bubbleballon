@@ -4,6 +4,37 @@
 	box-sizing: border-box;
 }
 
+ ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #0084ff;
+  color: white;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: 10px;
+}
+
 body{
     background-color: rgb(243, 242, 242);
 }
@@ -61,6 +92,7 @@ section img:hover{
     text-align: center;
     align-content: center;
     margin-left: 100px;
+    color: #000000;
   }
 
   .BC{
@@ -73,12 +105,13 @@ section img:hover{
 .box2 {
     border: 5px solid #8be2ff;
     background-color: rgba(255, 255, 255, 0.911);
-    margin: 70px;
-    width: 1000px;
-    height: 500px;
+    margin: 30px;
+    width: 800px;
+    height: 400px;
     text-align: center;
     align-content: center;
     margin-left: 100px;
+    color: #000000;
   }
   .BC1{
     display: flex;
@@ -95,46 +128,41 @@ section img:hover{
     text-align: center;
     align-content: center;
     margin-left: 100px;
+    color: #000000;
   }
   .BC2{
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
-.ImagenCat1 {
-  width: 50%;
-  }
-  
  
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-        .catalogo {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .producto {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 10px;
-            text-align: center;
-        }
-        .producto img {
-            width: 100%;
-            border-radius: 10px;
-        }
-        .producto h3 {
-            font-size: 18px;
-            margin: 10px 0;
+
+.catalogo {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 20px;
+ padding: 20px;
+ max-width: 1200px;
+ margin: auto;
+ }
+        
+.producto {
+ background: white;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ padding: 10px;
+ text-align: center;
+  }
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+  }
+        
+.producto h3 {
+  font-size: 18px;
+  margin: 10px 0;
         }
       
+   
    
