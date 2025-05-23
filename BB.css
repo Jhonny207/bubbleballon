@@ -73,7 +73,6 @@ section img:hover{
   line-height: 100px;
   color: white;
   font-size: larger;
-
 }
 
 .Titulocontacto{
@@ -92,7 +91,6 @@ section img:hover{
   text-align: center;
   line-height: 150px;
   color: white;
-
 }
 
 .box {
@@ -185,3 +183,168 @@ section img:hover{
           margin: auto;
           background-color: #8be2ff;
           }
+
+        
+        .presentation {
+            display: flex;
+            max-width: 1000px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .text-container {
+            width: 50%;
+            padding: 20px;
+        }
+        
+        .text-container h1 {
+            font-size: 2em;
+            font-weight: bold;
+            color: black;
+        }
+        
+        .text-container p {
+            font-size: 1em;
+            color: #333;
+            line-height: 1.5;
+        }
+        
+        .text-container ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .text-container ul li {
+            font-size: 1.1em;
+            margin: 10px 0;
+            color: black;
+            display: flex;
+            align-items: center;
+        }
+        
+        .image-container {
+            width: 50%;
+            position: relative;
+        }
+        
+        .image-container .main-image {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .image-container .overlay-image {
+            position: absolute;
+            bottom: -20px;
+            left: -30px;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        burradas
+
+        body {
+          margin: 0;
+          font-family: 'Segoe UI', sans-serif;
+          background-color: #f7f9fb;
+        }
+        
+        .seccion-globos {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          padding: 40px 5px;
+          background-color: #fac5f7;
+        }
+        
+        .contenido-texto {
+          flex: 1 1 50%;
+          max-width: 600px;
+          padding: 20px;
+        }
+        
+        .contenido-texto h2 {
+          font-size: 2.5em;
+          margin-bottom: 20px;
+          color: #333;
+        }
+        
+        .contenido-texto p {
+          font-size: 1.1em;
+          line-height: 1.6;
+          color: #444;
+        }
+        
+        .imagen-deco {
+          flex: 20%;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        .imagen-deco img {
+          width: 100%;
+          max-width: 900px;
+          pointer-events: none;
+          transform: none;
+          transition: none;
+        }
+        body {
+          font-family: 'Arial', sans-serif;
+          background-color: #fff;
+          margin: 0;
+          padding: 0;
+        }
+        
+        .novedades {
+          text-align: center;
+          padding: 40px 20px;
+        }
+        
+        .novedades h2 {
+          font-size: 2em;
+          letter-spacing: 1px;
+          margin-bottom: 40px;
+        }
+        
+        .productos {
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          flex-wrap: wrap;
+        }
+        
+        .producto {
+          width: 250px;
+          background: #f9f9f9;
+          padding: 20px;
+          border-radius: 12px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+        }
+        
+        .producto:hover {
+          transform: scale(1.05);
+        }
+        
+        .producto img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+        
+        .producto h3 {
+          font-size: 1.1em;
+          margin: 15px 0 10px;
+        }
+        
+        .precio {
+          color: green;
+          font-weight: bold;
+          font-size: 1em;
+        }
+        
+        
+
